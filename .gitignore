@@ -1,0 +1,24 @@
+# Directorio node_modules
+node_modules/
+
+# Archivos generados por la CLI de Angular
+dist/
+tmp/
+logs/
+
+# Archivos de configuración específicos del entorno
+*.env
+*.secret
+
+# Archivos de IDE y editor de código
+*.vscode/
+.idea/
+.project
+
+# Archivos de prueba
+karma.conf.js
+coverage/
+
+# Directorios para paquetes de aplicaciones
+# Ignora la caché creada con la CLI de Angular
+cache/
